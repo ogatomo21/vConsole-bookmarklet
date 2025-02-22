@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vConsole Bookmarklet(unofficial)</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.2/css/bulma.min.css">
+</head>
+<body>
+    <div class="app m-6">
+        <h1 class="title">vConsole Bookmarklet(unofficial)</h1>
+        <p class="subtitle mb-6">by @ogatomo21</p>
+
+        <h2 class="title">概要</h2>
+        <p class="mb-6">このツールはTencentが開発している<a href="https://github.com/Tencent/vConsole">vConsole</a>というモバイルデバイス上でDevToolsのようなデバッグを可能にするツールをブックマークレットとして簡単に実行できるようにしたものです。</p>
+
+        <h2 class="title">使い方</h2>
+        <p class="mb-6">下記のリンクをブックマークバーにドラック&ドロップして登録してください。<br>登録ができない場合は適当なページ(このページでも可)をブックマークへ登録した後、下記のリンクをコピーしてブックマークのURLに貼り付けてください。</p>
+
+        <noscript>vConsoleのソースコードを動的に取得するため、Javascriptを有効にしてください。</noscript>
+        <a id="bookmarklet" href="">vConsole Bookmarklet</a>
+
+        <h2 class="title mt-6">注意事項</h2>
+        <div class="content">
+            <ul>
+                <li>本ブックマークレットを利用しておきた損害等は負いかねます。自己責任でご利用ください</li>
+                <li>unpkgからvConsoleのスクリプトを読み込んでいる関係上、CSPでセキュリティがガチガチなサイトではご利用いただけません。<s>大人しくChromeのDevToolsでも使っといてください。</s></li>
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="has-text-centered">
+            &copy; Tomoya Ogawa 2025<br>
+            <a href="https://github.com/ogatomo21/vconsole-bookmarklet">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
