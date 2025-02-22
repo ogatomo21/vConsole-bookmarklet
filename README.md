@@ -8,7 +8,7 @@
 
 下記のGithub Pagesを参照
 
-[https://gh.ogtm.dev/vconsole-bookmarklet](https://gh.ogtm.dev/vconsole-bookmarklet)
+[https://gh.ogtm.dev/vConsole-bookmarklet](https://gh.ogtm.dev/vConsole-bookmarklet)
 
 ## 注意事項
 
